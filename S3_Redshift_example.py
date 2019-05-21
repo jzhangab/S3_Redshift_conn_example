@@ -22,7 +22,7 @@ from datetime import datetime
 redshift_table = 'domain.redshift_table'
 default_conn = "dbname='db_name' port='1234' user='username' password='password' host='enter_ip_here'"
 
-col_list = [col1, col2,col3
+col_list = [col1, col2,col3]
 col_string = ''
 for i in range(0, len(col_list)):
     if i != len(col_list)-1:
